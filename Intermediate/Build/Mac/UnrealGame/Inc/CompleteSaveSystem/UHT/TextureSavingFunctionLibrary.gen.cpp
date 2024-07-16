@@ -40,7 +40,7 @@ struct Z_Construct_UFunction_UTextureSavingFunctionLibrary_CreateTextureFromSave
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTextureSavingFunctionLibrary_CreateTextureFromSaveData_Statics::NewProp_TextureData = { "TextureData", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TextureSavingFunctionLibrary_eventCreateTextureFromSaveData_Parms, TextureData), Z_Construct_UScriptStruct_FSaveTextureData, METADATA_PARAMS(0, nullptr) }; // 717725285
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTextureSavingFunctionLibrary_CreateTextureFromSaveData_Statics::NewProp_TextureData = { "TextureData", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TextureSavingFunctionLibrary_eventCreateTextureFromSaveData_Parms, TextureData), Z_Construct_UScriptStruct_FSaveTextureData, METADATA_PARAMS(0, nullptr) }; // 157386760
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTextureSavingFunctionLibrary_CreateTextureFromSaveData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TextureSavingFunctionLibrary_eventCreateTextureFromSaveData_Parms, ReturnValue), Z_Construct_UClass_UTexture2D_NoRegister, METADATA_PARAMS(0, nullptr) };
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTextureSavingFunctionLibrary_CreateTextureFromSaveData_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTextureSavingFunctionLibrary_CreateTextureFromSaveData_Statics::NewProp_TextureData,
@@ -89,7 +89,7 @@ struct Z_Construct_UFunction_UTextureSavingFunctionLibrary_GetTextureSaveData_St
 	static const UECodeGen_Private::FFunctionParams FuncParams;
 };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UTextureSavingFunctionLibrary_GetTextureSaveData_Statics::NewProp_Texture = { "Texture", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TextureSavingFunctionLibrary_eventGetTextureSaveData_Parms, Texture), Z_Construct_UClass_UTexture2D_NoRegister, METADATA_PARAMS(0, nullptr) };
-const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTextureSavingFunctionLibrary_GetTextureSaveData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TextureSavingFunctionLibrary_eventGetTextureSaveData_Parms, ReturnValue), Z_Construct_UScriptStruct_FSaveTextureData, METADATA_PARAMS(0, nullptr) }; // 717725285
+const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UTextureSavingFunctionLibrary_GetTextureSaveData_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(TextureSavingFunctionLibrary_eventGetTextureSaveData_Parms, ReturnValue), Z_Construct_UScriptStruct_FSaveTextureData, METADATA_PARAMS(0, nullptr) }; // 157386760
 const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UTextureSavingFunctionLibrary_GetTextureSaveData_Statics::PropPointers[] = {
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTextureSavingFunctionLibrary_GetTextureSaveData_Statics::NewProp_Texture,
 	(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UTextureSavingFunctionLibrary_GetTextureSaveData_Statics::NewProp_ReturnValue,
@@ -193,8 +193,8 @@ struct Z_Construct_UClass_UTextureSavingFunctionLibrary_Statics
 #endif // WITH_METADATA
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_UTextureSavingFunctionLibrary_CreateTextureFromSaveData, "CreateTextureFromSaveData" }, // 1184354980
-		{ &Z_Construct_UFunction_UTextureSavingFunctionLibrary_GetTextureSaveData, "GetTextureSaveData" }, // 2818932694
+		{ &Z_Construct_UFunction_UTextureSavingFunctionLibrary_CreateTextureFromSaveData, "CreateTextureFromSaveData" }, // 2628493942
+		{ &Z_Construct_UFunction_UTextureSavingFunctionLibrary_GetTextureSaveData, "GetTextureSaveData" }, // 4162838625
 		{ &Z_Construct_UFunction_UTextureSavingFunctionLibrary_RenderTargetToTexture2D, "RenderTargetToTexture2D" }, // 2194971066
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
@@ -244,10 +244,10 @@ UTextureSavingFunctionLibrary::~UTextureSavingFunctionLibrary() {}
 struct Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_TextureSavingFunctionLibrary_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UTextureSavingFunctionLibrary, UTextureSavingFunctionLibrary::StaticClass, TEXT("UTextureSavingFunctionLibrary"), &Z_Registration_Info_UClass_UTextureSavingFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTextureSavingFunctionLibrary), 771579595U) },
+		{ Z_Construct_UClass_UTextureSavingFunctionLibrary, UTextureSavingFunctionLibrary::StaticClass, TEXT("UTextureSavingFunctionLibrary"), &Z_Registration_Info_UClass_UTextureSavingFunctionLibrary, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UTextureSavingFunctionLibrary), 2896762106U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_TextureSavingFunctionLibrary_h_2742153603(TEXT("/Script/CompleteSaveSystem"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_TextureSavingFunctionLibrary_h_3134256731(TEXT("/Script/CompleteSaveSystem"),
 	Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_TextureSavingFunctionLibrary_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_TextureSavingFunctionLibrary_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

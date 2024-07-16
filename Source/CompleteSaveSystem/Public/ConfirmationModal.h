@@ -19,7 +19,7 @@ public:
 	UPROPERTY(BlueprintAssignable, Category = "Action")
 	FActionDelegate YesAction;
 
-	UFUNCTION(BlueprintCallable) void SetParameters(FText Title, FText Content, int Index, bool HasYesButton);
+	UFUNCTION(BlueprintCallable, Category = "Parameters") void SetParameters(FText Title, FText Content, int Index, bool HasYesButton);
 	
 protected:
 
@@ -35,10 +35,10 @@ protected:
 	UPROPERTY(meta=(BindWidget))
 	UButton* NoButton;
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadOnly, Category = "Parameters")
 	bool isLoading = false;
 	
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadOnly, Category = "Parameters")
 	bool bHasYesButton;
 
 	UFUNCTION()

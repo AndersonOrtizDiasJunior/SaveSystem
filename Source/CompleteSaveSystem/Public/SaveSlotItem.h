@@ -8,25 +8,25 @@ class USaveSlotItem: public  UObject
 	GENERATED_BODY()
 	
 public:
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, Category = "Parameters")
 	UMaterialInterface* Image;
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, Category = "Parameters")
 	FText Title;
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, Category = "Parameters")
 	FText Subtitle;
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, Category = "Parameters")
 	FText TimeStamp;
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, Category = "Parameters")
 	int Index;
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, Category = "Parameters")
 	bool bCanBeDeleted;
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, Category = "Parameters")
 	bool bIsLoad;
 
 	DECLARE_DELEGATE_OneParam(SlotActionDelegate, int);
@@ -35,6 +35,6 @@ public:
 	
 	SlotActionDelegate MainAction;
 	
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, Category = "Parameters")
 	void SetParameters(int NewIndex, UMaterialInterface* NewImage, FText NewTitle, FText NewSubtitle, FText NewTimeStamp, bool NewCanBeDeleted, bool NewIsLoad);
 };

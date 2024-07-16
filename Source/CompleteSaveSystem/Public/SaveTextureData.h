@@ -10,16 +10,16 @@ struct FSaveTextureData
 {
 	GENERATED_USTRUCT_BODY()
 
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadOnly, Category = "Parameters")
 	TEnumAsByte<EPixelFormat> Format;
 	
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadOnly, Category = "Parameters")
 	int Width;
 	
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadOnly, Category = "Parameters")
 	int Height;
 	
-	UPROPERTY(BlueprintReadOnly)
+	UPROPERTY(BlueprintReadOnly, Category = "Parameters")
 	TArray<uint8> Buffer;
 
 	FSaveTextureData() {}

@@ -134,11 +134,11 @@ struct Z_Construct_UClass_USaveSlotElement_Statics
 		{ "ModuleRelativePath", "Public/SaveSlotElement.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Index_MetaData[] = {
-		{ "Category", "SaveSlotElement" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveSlotElement.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIsLoad_MetaData[] = {
-		{ "Category", "SaveSlotElement" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveSlotElement.h" },
 	};
 #endif // WITH_METADATA
@@ -231,10 +231,10 @@ USaveSlotElement::~USaveSlotElement() {}
 struct Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_USaveSlotElement, USaveSlotElement::StaticClass, TEXT("USaveSlotElement"), &Z_Registration_Info_UClass_USaveSlotElement, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USaveSlotElement), 2137103027U) },
+		{ Z_Construct_UClass_USaveSlotElement, USaveSlotElement::StaticClass, TEXT("USaveSlotElement"), &Z_Registration_Info_UClass_USaveSlotElement, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USaveSlotElement), 854226867U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_1352460977(TEXT("/Script/CompleteSaveSystem"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_2556625556(TEXT("/Script/CompleteSaveSystem"),
 	Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

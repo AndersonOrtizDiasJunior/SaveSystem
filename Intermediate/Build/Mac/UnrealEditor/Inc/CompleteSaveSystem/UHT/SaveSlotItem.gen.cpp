@@ -32,6 +32,7 @@ struct Z_Construct_UFunction_USaveSlotItem_SetParameters_Statics
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveSlotItem.h" },
 	};
 #endif // WITH_METADATA
@@ -122,31 +123,31 @@ struct Z_Construct_UClass_USaveSlotItem_Statics
 		{ "ModuleRelativePath", "Public/SaveSlotItem.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Image_MetaData[] = {
-		{ "Category", "SaveSlotItem" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveSlotItem.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Title_MetaData[] = {
-		{ "Category", "SaveSlotItem" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveSlotItem.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Subtitle_MetaData[] = {
-		{ "Category", "SaveSlotItem" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveSlotItem.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TimeStamp_MetaData[] = {
-		{ "Category", "SaveSlotItem" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveSlotItem.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Index_MetaData[] = {
-		{ "Category", "SaveSlotItem" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveSlotItem.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bCanBeDeleted_MetaData[] = {
-		{ "Category", "SaveSlotItem" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveSlotItem.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIsLoad_MetaData[] = {
-		{ "Category", "SaveSlotItem" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveSlotItem.h" },
 	};
 #endif // WITH_METADATA
@@ -162,7 +163,7 @@ struct Z_Construct_UClass_USaveSlotItem_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_USaveSlotItem_SetParameters, "SetParameters" }, // 2947852970
+		{ &Z_Construct_UFunction_USaveSlotItem_SetParameters, "SetParameters" }, // 2145592476
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -236,10 +237,10 @@ USaveSlotItem::~USaveSlotItem() {}
 struct Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotItem_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_USaveSlotItem, USaveSlotItem::StaticClass, TEXT("USaveSlotItem"), &Z_Registration_Info_UClass_USaveSlotItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USaveSlotItem), 2245634449U) },
+		{ Z_Construct_UClass_USaveSlotItem, USaveSlotItem::StaticClass, TEXT("USaveSlotItem"), &Z_Registration_Info_UClass_USaveSlotItem, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USaveSlotItem), 628266462U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotItem_h_3945726773(TEXT("/Script/CompleteSaveSystem"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotItem_h_2322336468(TEXT("/Script/CompleteSaveSystem"),
 	Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotItem_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotItem_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

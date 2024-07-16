@@ -49,10 +49,10 @@ protected:
 	UPROPERTY(meta=(BindWidget))
 	UButton* ActionButton;
 	
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, Category = "Parameters")
 	int Index;
 
-	UPROPERTY(BlueprintReadWrite)
+	UPROPERTY(BlueprintReadWrite, Category = "Parameters")
 	bool bIsLoad;
 	
 	// MARK: - IUserObjectListEntry

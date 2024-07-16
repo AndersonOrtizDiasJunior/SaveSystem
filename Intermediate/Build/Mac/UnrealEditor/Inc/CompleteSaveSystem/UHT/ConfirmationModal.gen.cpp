@@ -104,6 +104,7 @@ struct Z_Construct_UFunction_UConfirmationModal_SetParameters_Statics
 	};
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/ConfirmationModal.h" },
 	};
 #endif // WITH_METADATA
@@ -204,11 +205,11 @@ struct Z_Construct_UClass_UConfirmationModal_Statics
 		{ "ModuleRelativePath", "Public/ConfirmationModal.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_isLoading_MetaData[] = {
-		{ "Category", "ConfirmationModal" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/ConfirmationModal.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bHasYesButton_MetaData[] = {
-		{ "Category", "ConfirmationModal" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/ConfirmationModal.h" },
 	};
 #endif // WITH_METADATA
@@ -226,7 +227,7 @@ struct Z_Construct_UClass_UConfirmationModal_Statics
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
 		{ &Z_Construct_UDelegateFunction_UConfirmationModal_ActionDelegate__DelegateSignature, "ActionDelegate__DelegateSignature" }, // 2656905549
 		{ &Z_Construct_UFunction_UConfirmationModal_OnClickYes, "OnClickYes" }, // 1442735450
-		{ &Z_Construct_UFunction_UConfirmationModal_SetParameters, "SetParameters" }, // 836293247
+		{ &Z_Construct_UFunction_UConfirmationModal_SetParameters, "SetParameters" }, // 3981478313
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -300,10 +301,10 @@ UConfirmationModal::~UConfirmationModal() {}
 struct Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_ConfirmationModal_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UConfirmationModal, UConfirmationModal::StaticClass, TEXT("UConfirmationModal"), &Z_Registration_Info_UClass_UConfirmationModal, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UConfirmationModal), 639554902U) },
+		{ Z_Construct_UClass_UConfirmationModal, UConfirmationModal::StaticClass, TEXT("UConfirmationModal"), &Z_Registration_Info_UClass_UConfirmationModal, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UConfirmationModal), 4010710858U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_ConfirmationModal_h_630447447(TEXT("/Script/CompleteSaveSystem"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_ConfirmationModal_h_3724609721(TEXT("/Script/CompleteSaveSystem"),
 	Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_ConfirmationModal_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_ConfirmationModal_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);

@@ -37,19 +37,19 @@ struct Z_Construct_UScriptStruct_FSaveTextureData_Statics
 		{ "ModuleRelativePath", "Public/SaveTextureData.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Format_MetaData[] = {
-		{ "Category", "SaveTextureData" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveTextureData.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Width_MetaData[] = {
-		{ "Category", "SaveTextureData" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveTextureData.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Height_MetaData[] = {
-		{ "Category", "SaveTextureData" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveTextureData.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Buffer_MetaData[] = {
-		{ "Category", "SaveTextureData" },
+		{ "Category", "Parameters" },
 		{ "ModuleRelativePath", "Public/SaveTextureData.h" },
 	};
 #endif // WITH_METADATA
@@ -105,10 +105,10 @@ UScriptStruct* Z_Construct_UScriptStruct_FSaveTextureData()
 struct Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveTextureData_h_Statics
 {
 	static constexpr FStructRegisterCompiledInInfo ScriptStructInfo[] = {
-		{ FSaveTextureData::StaticStruct, Z_Construct_UScriptStruct_FSaveTextureData_Statics::NewStructOps, TEXT("SaveTextureData"), &Z_Registration_Info_UScriptStruct_SaveTextureData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSaveTextureData), 1070763200U) },
+		{ FSaveTextureData::StaticStruct, Z_Construct_UScriptStruct_FSaveTextureData_Statics::NewStructOps, TEXT("SaveTextureData"), &Z_Registration_Info_UScriptStruct_SaveTextureData, CONSTRUCT_RELOAD_VERSION_INFO(FStructReloadVersionInfo, sizeof(FSaveTextureData), 157386760U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveTextureData_h_4164162431(TEXT("/Script/CompleteSaveSystem"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveTextureData_h_3509821691(TEXT("/Script/CompleteSaveSystem"),
 	nullptr, 0,
 	Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveTextureData_h_Statics::ScriptStructInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveTextureData_h_Statics::ScriptStructInfo),
 	nullptr, 0);

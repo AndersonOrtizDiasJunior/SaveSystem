@@ -19,25 +19,25 @@ class COMPLETESAVESYSTEM_API USaveSlotsList : public UUserWidget
 protected:
 	virtual void NativeConstruct() override;
 
-	UPROPERTY(BlueprintReadWrite, meta = (BindWidget))
+	UPROPERTY(BlueprintReadWrite, meta = (BindWidget), Category = "Slots")
 	class UListView* SlotListView;
 
-	UPROPERTY(BlueprintReadWrite, meta=(ExposeOnSpawn = true))
+	UPROPERTY(BlueprintReadWrite, meta=(ExposeOnSpawn = true), Category = "Slots")
 	TArray<USaveSlotItem*> Slots;
 	
-	UPROPERTY(BlueprintReadWrite, meta=(ExposeOnSpawn = true))
+	UPROPERTY(BlueprintReadWrite, meta=(ExposeOnSpawn = true), Category = "Parameters")
     bool bIsLoadGame;
 
-	UFUNCTION(BlueprintCallable)
+	UFUNCTION(BlueprintCallable, Category = "Slots")
 	void UpdateSlotList();
 	// MARK: - Blueprint side functions
 protected:
-	UFUNCTION(BlueprintImplementableEvent)
+	UFUNCTION(BlueprintImplementableEvent, Category = "Slots")
 	USaveSlotItem* GetNewSlotData();
 
-	UFUNCTION(BlueprintImplementableEvent)
+	UFUNCTION(BlueprintImplementableEvent, Category = "Slots")
 	void MainButtonAction(int Index);
 
-	UFUNCTION(BlueprintImplementableEvent)
+	UFUNCTION(BlueprintImplementableEvent, Category = "Slots")
 	void DeleteButtonAction(int Index);
 };

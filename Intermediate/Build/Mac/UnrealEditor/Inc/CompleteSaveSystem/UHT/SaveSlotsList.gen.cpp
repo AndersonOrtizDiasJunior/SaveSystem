@@ -34,6 +34,7 @@ struct Z_Construct_UFunction_USaveSlotsList_DeleteButtonAction_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Slots" },
 		{ "ModuleRelativePath", "Public/SaveSlotsList.h" },
 	};
 #endif // WITH_METADATA
@@ -81,6 +82,7 @@ struct Z_Construct_UFunction_USaveSlotsList_GetNewSlotData_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Slots" },
 		{ "ModuleRelativePath", "Public/SaveSlotsList.h" },
 	};
 #endif // WITH_METADATA
@@ -122,6 +124,7 @@ struct Z_Construct_UFunction_USaveSlotsList_MainButtonAction_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Slots" },
 		{ "ModuleRelativePath", "Public/SaveSlotsList.h" },
 	};
 #endif // WITH_METADATA
@@ -152,6 +155,7 @@ struct Z_Construct_UFunction_USaveSlotsList_UpdateSlotList_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
+		{ "Category", "Slots" },
 		{ "ModuleRelativePath", "Public/SaveSlotsList.h" },
 	};
 #endif // WITH_METADATA
@@ -202,17 +206,17 @@ struct Z_Construct_UClass_USaveSlotsList_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SlotListView_MetaData[] = {
 		{ "BindWidget", "" },
-		{ "Category", "SaveSlotsList" },
+		{ "Category", "Slots" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/SaveSlotsList.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_Slots_MetaData[] = {
-		{ "Category", "SaveSlotsList" },
+		{ "Category", "Slots" },
 		{ "ExposeOnSpawn", "TRUE" },
 		{ "ModuleRelativePath", "Public/SaveSlotsList.h" },
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_bIsLoadGame_MetaData[] = {
-		{ "Category", "SaveSlotsList" },
+		{ "Category", "Parameters" },
 		{ "ExposeOnSpawn", "TRUE" },
 		{ "ModuleRelativePath", "Public/SaveSlotsList.h" },
 	};
@@ -225,10 +229,10 @@ struct Z_Construct_UClass_USaveSlotsList_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_USaveSlotsList_DeleteButtonAction, "DeleteButtonAction" }, // 3436858598
-		{ &Z_Construct_UFunction_USaveSlotsList_GetNewSlotData, "GetNewSlotData" }, // 3237073998
-		{ &Z_Construct_UFunction_USaveSlotsList_MainButtonAction, "MainButtonAction" }, // 1308883533
-		{ &Z_Construct_UFunction_USaveSlotsList_UpdateSlotList, "UpdateSlotList" }, // 825431591
+		{ &Z_Construct_UFunction_USaveSlotsList_DeleteButtonAction, "DeleteButtonAction" }, // 250154491
+		{ &Z_Construct_UFunction_USaveSlotsList_GetNewSlotData, "GetNewSlotData" }, // 728667429
+		{ &Z_Construct_UFunction_USaveSlotsList_MainButtonAction, "MainButtonAction" }, // 3340501321
+		{ &Z_Construct_UFunction_USaveSlotsList_UpdateSlotList, "UpdateSlotList" }, // 238259005
 	};
 	static_assert(UE_ARRAY_COUNT(FuncInfo) < 2048);
 	static constexpr FCppClassTypeInfoStatic StaticCppClassTypeInfo = {
@@ -292,10 +296,10 @@ USaveSlotsList::~USaveSlotsList() {}
 struct Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotsList_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_USaveSlotsList, USaveSlotsList::StaticClass, TEXT("USaveSlotsList"), &Z_Registration_Info_UClass_USaveSlotsList, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USaveSlotsList), 1406334250U) },
+		{ Z_Construct_UClass_USaveSlotsList, USaveSlotsList::StaticClass, TEXT("USaveSlotsList"), &Z_Registration_Info_UClass_USaveSlotsList, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USaveSlotsList), 3704877169U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotsList_h_1870701265(TEXT("/Script/CompleteSaveSystem"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotsList_h_1626721728(TEXT("/Script/CompleteSaveSystem"),
 	Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotsList_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotsList_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
