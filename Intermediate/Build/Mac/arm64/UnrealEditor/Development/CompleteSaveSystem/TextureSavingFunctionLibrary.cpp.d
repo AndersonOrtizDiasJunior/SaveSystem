@@ -3805,7 +3805,10 @@
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
   Runtime/Core/Public/HAL/UnrealMemory.h \
   /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Public/SaveTextureData.h \
+  Runtime/Core/Public/PixelFormat.h \
   /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/UnrealEditor/Inc/CompleteSaveSystem/UHT/SaveTextureData.generated.h \
+  Runtime/Engine/Classes/Engine/Texture2D.h \
+  Runtime/Engine/Public/TextureResource.h \
   Runtime/Engine/Classes/Engine/TextureRenderTarget2D.h \
   Runtime/RenderCore/Public/RenderUtils.h \
   Runtime/Engine/Classes/Engine/TextureRenderTarget.h \

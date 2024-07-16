@@ -3805,4 +3805,5 @@
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h \
   /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Public/SaveTextureData.h \
+  Runtime/Core/Public/PixelFormat.h \
   /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/UnrealEditor/Inc/CompleteSaveSystem/UHT/SaveTextureData.generated.h

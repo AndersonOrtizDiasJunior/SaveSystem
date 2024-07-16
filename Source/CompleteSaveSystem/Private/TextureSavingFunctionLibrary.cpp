@@ -4,6 +4,8 @@
 #include "TextureSavingFunctionLibrary.h"
 #include "HAL/UnrealMemory.h"
 #include "SaveTextureData.h"
+#include "Engine/Texture2D.h"
+#include "TextureResource.h"
 #include "Engine/TextureRenderTarget2D.h"
 
 FSaveTextureData UTextureSavingFunctionLibrary::GetTextureSaveData(UTexture2D* Texture)
@@ -12,7 +14,6 @@ FSaveTextureData UTextureSavingFunctionLibrary::GetTextureSaveData(UTexture2D* T
     FByteBulkData* RawImageData = &MyMipMap->BulkData;
     uint32 Width = MyMipMap->SizeX;
     uint32 Height = MyMipMap->SizeY;
-    uint32 TextureSize = Width * Height * 4;
 
     TArray<uint8> TextureDataTarget = TArray<uint8>();
     TextureDataTarget.SetNum(RawImageData->GetBulkDataSize() * sizeof(uint8), true);

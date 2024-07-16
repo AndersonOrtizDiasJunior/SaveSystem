@@ -3799,7 +3799,7 @@
   /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/arm64/UnrealEditor/Development/CompleteSaveSystem/Definitions.CompleteSaveSystem.h \
   Runtime/CoreUObject/Public/UObject/GeneratedCppIncludes.h \
   /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Public/SaveTextureData.h \
-  Runtime/Core/Public/CoreMinimal.h \
+  Runtime/Core/Public/CoreMinimal.h Runtime/Core/Public/PixelFormat.h \
   /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/UnrealEditor/Inc/CompleteSaveSystem/UHT/SaveTextureData.generated.h \
   Runtime/CoreUObject/Public/UObject/ObjectMacros.h \
   Runtime/CoreUObject/Public/UObject/ScriptMacros.h
