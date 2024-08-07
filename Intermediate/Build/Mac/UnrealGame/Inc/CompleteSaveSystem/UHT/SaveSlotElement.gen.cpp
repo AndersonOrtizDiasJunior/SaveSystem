@@ -97,9 +97,6 @@ struct Z_Construct_UClass_USaveSlotElement_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \n */" },
-#endif
 		{ "IncludePath", "SaveSlotElement.h" },
 		{ "ModuleRelativePath", "Public/SaveSlotElement.h" },
 	};
@@ -228,14 +225,14 @@ USaveSlotElement::~USaveSlotElement() {}
 // End Class USaveSlotElement
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics
+struct Z_CompiledInDeferFile_FID_andersondj_Anderson_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_USaveSlotElement, USaveSlotElement::StaticClass, TEXT("USaveSlotElement"), &Z_Registration_Info_UClass_USaveSlotElement, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USaveSlotElement), 854226867U) },
+		{ Z_Construct_UClass_USaveSlotElement, USaveSlotElement::StaticClass, TEXT("USaveSlotElement"), &Z_Registration_Info_UClass_USaveSlotElement, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USaveSlotElement), 1569332585U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_2556625556(TEXT("/Script/CompleteSaveSystem"),
-	Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_3467928664(TEXT("/Script/CompleteSaveSystem"),
+	Z_CompiledInDeferFile_FID_andersondj_Anderson_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_andersondj_Anderson_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

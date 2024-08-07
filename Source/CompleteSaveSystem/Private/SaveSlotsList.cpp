@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 2024, Anderson Ortiz Dias Junior.
 
 
 #include "SaveSlotsList.h"
@@ -23,11 +23,11 @@ void USaveSlotsList::UpdateSlotList()
 		}
 	}
 
-	for (USaveSlotItem* Slot : Slots)
+	for (USaveSlotItem* SaveSlot : Slots)
 	{
-		Slot->bIsLoad = bIsLoadGame;
-		Slot->MainAction.BindUFunction(this, "MainButtonAction");
-		Slot->DeleteAction.BindUFunction(this, "DeleteButtonAction");
+		SaveSlot->bIsLoad = bIsLoadGame;
+		SaveSlot->MainAction.BindUFunction(this, "MainButtonAction");
+		SaveSlot->DeleteAction.BindUFunction(this, "DeleteButtonAction");
 	}
 		
 	SlotListView->SetListItems<USaveSlotItem*>(Slots);

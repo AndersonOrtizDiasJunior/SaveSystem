@@ -1,13 +1,10 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright 2024, Anderson Ortiz Dias Junior.
 
 #pragma once
 #include "Blueprint/UserWidget.h"
 #include "CoreMinimal.h"
 #include "ConfirmationModal.generated.h"
 
-/**
- * 
- */
 UCLASS()
 class COMPLETESAVESYSTEM_API UConfirmationModal : public UUserWidget
 {

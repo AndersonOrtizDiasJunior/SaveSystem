@@ -1,6 +1,6 @@
-/Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/arm64/UnrealGame/Development/CompleteSaveSystem/CompleteSaveSystem.cpp.o: \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Intermediate/Build/Mac/arm64/SaveSystem/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.h \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Intermediate/Build/Mac/arm64/SaveSystem/Development/Engine/SharedDefinitions.Engine.Project.ValApi.Cpp20.h \
+/Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/arm64/UnrealGame/Development/CompleteSaveSystem/CompleteSaveSystem.cpp.o: \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Intermediate/Build/Mac/arm64/SaveSystem/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.h \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Intermediate/Build/Mac/arm64/SaveSystem/Development/Engine/SharedDefinitions.Engine.Project.ValApi.Cpp20.h \
   /Users/Shared/Epic\ Games/UE_5.4/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h \
   /Users/Shared/Epic\ Games/UE_5.4/Engine/Source/Runtime/Slate/Public/SlateSharedPCH.h \
   /Users/Shared/Epic\ Games/UE_5.4/Engine/Source/Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h \
@@ -3663,8 +3663,8 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/weak_result_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_destructor.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Private/CompleteSaveSystem.cpp \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/arm64/UnrealGame/Development/CompleteSaveSystem/Definitions.CompleteSaveSystem.h \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Public/CompleteSaveSystem.h \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Private/CompleteSaveSystem.cpp \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/arm64/UnrealGame/Development/CompleteSaveSystem/Definitions.CompleteSaveSystem.h \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Public/CompleteSaveSystem.h \
   Runtime/Core/Public/CoreMinimal.h \
   Runtime/Core/Public/Modules/ModuleManager.h

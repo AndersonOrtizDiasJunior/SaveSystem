@@ -1,6 +1,6 @@
-/Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/arm64/UnrealEditor/Development/CompleteSaveSystem/SaveSlotElement.cpp.o: \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Intermediate/Build/Mac/arm64/SaveSystemEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.h \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Intermediate/Build/Mac/arm64/SaveSystemEditor/Development/Engine/SharedDefinitions.Engine.Project.ValApi.Cpp20.h \
+/Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/arm64/UnrealEditor/Development/CompleteSaveSystem/SaveSlotElement.cpp.o: \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Intermediate/Build/Mac/arm64/SaveSystemEditor/Development/Engine/SharedPCH.Engine.Project.ValApi.Cpp20.h \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Intermediate/Build/Mac/arm64/SaveSystemEditor/Development/Engine/SharedDefinitions.Engine.Project.ValApi.Cpp20.h \
   /Users/Shared/Epic\ Games/UE_5.4/Engine/Source/Runtime/Engine/Public/EngineSharedPCH.h \
   /Users/Shared/Epic\ Games/UE_5.4/Engine/Source/Runtime/Slate/Public/SlateSharedPCH.h \
   /Users/Shared/Epic\ Games/UE_5.4/Engine/Source/Runtime/CoreUObject/Public/CoreUObjectSharedPCH.h \
@@ -3672,8 +3672,8 @@
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__functional/weak_result_type.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/allocator_destructor.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/c++/v1/__memory/uses_allocator_construction.h \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Intermediate/Build/Mac/arm64/SaveSystemEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.h \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Intermediate/Build/Mac/arm64/SaveSystemEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Project.ValApi.Cpp20.h \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Intermediate/Build/Mac/arm64/SaveSystemEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.Cpp20.h \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Intermediate/Build/Mac/arm64/SaveSystemEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Project.ValApi.Cpp20.h \
   /Users/Shared/Epic\ Games/UE_5.4/Engine/Source/Editor/UnrealEd/Public/UnrealEdSharedPCH.h \
   /Users/Shared/Epic\ Games/UE_5.4/Engine/Source/Runtime/Messaging/Public/IMessageContext.h \
   /Users/Shared/Epic\ Games/UE_5.4/Engine/Source/Runtime/CoreUObject/Public/AssetRegistry/ARFilter.h \
@@ -3795,9 +3795,9 @@
   /Users/Shared/Epic\ Games/UE_5.4/Engine/Source/Editor/UnrealEd/Public/MRUFavoritesList.h \
   /Users/Shared/Epic\ Games/UE_5.4/Engine/Source/Editor/UnrealEd/Public/MRUList.h \
   /Users/Shared/Epic\ Games/UE_5.4/Engine/Source/../Intermediate/Build/Mac/UnrealEditor/Inc/UnrealEd/UHT/AssetEditorSubsystem.generated.h \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Private/SaveSlotElement.cpp \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/arm64/UnrealEditor/Development/CompleteSaveSystem/Definitions.CompleteSaveSystem.h \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Public/SaveSlotElement.h \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Private/SaveSlotElement.cpp \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/arm64/UnrealEditor/Development/CompleteSaveSystem/Definitions.CompleteSaveSystem.h \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Public/SaveSlotElement.h \
   Runtime/Core/Public/CoreMinimal.h \
   Runtime/UMG/Public/Blueprint/IUserObjectListEntry.h \
   Runtime/UMG/Public/Blueprint/IUserListEntry.h \
@@ -3871,9 +3871,9 @@
   Runtime/Core/Public/Delegates/DelegateCombinations.h \
   ../Intermediate/Build/Mac/UnrealEditor/Inc/UMG/UHT/WidgetAnimationEvents.generated.h \
   ../Intermediate/Build/Mac/UnrealEditor/Inc/UMG/UHT/UserWidget.generated.h \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/UnrealEditor/Inc/CompleteSaveSystem/UHT/SaveSlotElement.generated.h \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Public/SaveSlotItem.h \
-  /Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/UnrealEditor/Inc/CompleteSaveSystem/UHT/SaveSlotItem.generated.h \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/UnrealEditor/Inc/CompleteSaveSystem/UHT/SaveSlotElement.generated.h \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Public/SaveSlotItem.h \
+  /Users/andersondj/Anderson/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/UnrealEditor/Inc/CompleteSaveSystem/UHT/SaveSlotItem.generated.h \
   Runtime/UMG/Public/Components/Button.h \
   Runtime/SlateCore/Public/Styling/SlateTypes.h \
   Runtime/UMG/Public/Components/ContentWidget.h \

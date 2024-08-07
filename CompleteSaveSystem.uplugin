@@ -1,16 +1,15 @@
 {
 	"FileVersion": 3,
 	"Version": 1,
-	"EngineVersion" : "5.0.0",
+	"EngineVersion" : "5.4.0",
 	"VersionName": "1.0",
-	"PlatformAllowList": [ "Win64", "Win32", "Mac"],
 	"FriendlyName": "CompleteSaveSystem",
 	"Description": "Complete Save System with thumbnails and tools for run time generated textures.",
 	"Category": "Save System",
 	"CreatedBy": "Anderson Ortiz Dias Junior",
 	"CreatedByURL": "www.ortizdeveloper.com.br",
 	"DocsURL": "",
-	"MarketplaceURL": "",
+	"MarketplaceURL": "com.epicgames.launcher:\n//ue/marketplace/product/22081ee01b49485bb15cfdd6dd097f65",
 	"SupportURL": "",
 	"CanContainContent": true,
 	"IsBetaVersion": false,
@@ -20,7 +19,8 @@
 		{
 			"Name": "CompleteSaveSystem",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [ "Win64", "Win32", "Mac"]
 		}
 	]
 }

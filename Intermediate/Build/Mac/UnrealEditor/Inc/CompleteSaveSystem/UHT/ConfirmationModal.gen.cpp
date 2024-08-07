@@ -174,9 +174,6 @@ struct Z_Construct_UClass_UConfirmationModal_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \n */" },
-#endif
 		{ "IncludePath", "ConfirmationModal.h" },
 		{ "ModuleRelativePath", "Public/ConfirmationModal.h" },
 	};
@@ -298,14 +295,14 @@ UConfirmationModal::~UConfirmationModal() {}
 // End Class UConfirmationModal
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_ConfirmationModal_h_Statics
+struct Z_CompiledInDeferFile_FID_andersondj_Anderson_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_ConfirmationModal_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_UConfirmationModal, UConfirmationModal::StaticClass, TEXT("UConfirmationModal"), &Z_Registration_Info_UClass_UConfirmationModal, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UConfirmationModal), 4010710858U) },
+		{ Z_Construct_UClass_UConfirmationModal, UConfirmationModal::StaticClass, TEXT("UConfirmationModal"), &Z_Registration_Info_UClass_UConfirmationModal, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UConfirmationModal), 210095365U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_ConfirmationModal_h_3724609721(TEXT("/Script/CompleteSaveSystem"),
-	Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_ConfirmationModal_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_andersondj_Anderson_BYUI_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_ConfirmationModal_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_andersondj_Anderson_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_ConfirmationModal_h_3176475117(TEXT("/Script/CompleteSaveSystem"),
+	Z_CompiledInDeferFile_FID_andersondj_Anderson_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_ConfirmationModal_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_andersondj_Anderson_TCC_savesystemplugin_SaveSystem_Plugins_CompleteSaveSystem_Source_CompleteSaveSystem_Public_ConfirmationModal_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

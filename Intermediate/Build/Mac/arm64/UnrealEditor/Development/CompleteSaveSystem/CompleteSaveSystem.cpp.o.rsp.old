@@ -284,6 +284,7 @@
 -I"Editor/SceneDepthPickerMode/Public"
 -I"../Intermediate/Build/Mac/UnrealEditor/Inc/AnimationEditMode/UHT"
 -I"Editor/AnimationEditMode/Public"
+-I"/Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/UnrealEditor/Inc/CompleteSaveSystem/UHT"
 -I"/Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source"
 -I"/Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Public"
 -isystem"ThirdParty/LibTiff/Source/Mac"

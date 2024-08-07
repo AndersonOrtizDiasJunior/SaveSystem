@@ -350,7 +350,7 @@
 -std=c++20
 -fpch-validate-input-files-content
 -stdlib=libc++
-"/Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Public/SaveSlotItem.cpp"
+"/Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Source/CompleteSaveSystem/Private/SaveSlotItem.cpp"
 -MD -MF"/Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/arm64/UnrealEditor/Development/CompleteSaveSystem/SaveSlotItem.cpp.d"
 -o "/Users/andersondj/Anderson/BYUI/TCC/savesystemplugin/SaveSystem/Plugins/CompleteSaveSystem/Intermediate/Build/Mac/arm64/UnrealEditor/Development/CompleteSaveSystem/SaveSlotItem.cpp.o"
 -DUE_USE_SWIFT_UI_MAIN=0
