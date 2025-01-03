@@ -14,4 +14,7 @@ class COMPLETESAVESYSTEM_API UParentSaveGame : public USaveGame
 public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Checkpoint System")
 	TArray<FString> SavedCheckPoints;
+
+	UPROPERTY(BlueprintReadWrite, Category = "Save System")
+	FName LevelName;
 };
