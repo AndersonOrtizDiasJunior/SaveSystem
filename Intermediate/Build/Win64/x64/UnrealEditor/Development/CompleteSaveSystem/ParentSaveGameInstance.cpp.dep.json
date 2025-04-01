@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\ander\\onedrive\\documentos\\unreal projects\\myproject2\\plugins\\savesystem\\source\\completesavesystem\\private\\parentsavegameinstance.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\ander\\onedrive\\documentos\\unreal projects\\myproject2\\intermediate\\build\\win64\\x64\\myproject2editor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\ander\\onedrive\\documentos\\unreal projects\\myproject2\\plugins\\savesystem\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\completesavesystem\\definitions.completesavesystem.h",
+            "c:\\users\\ander\\onedrive\\documentos\\unreal projects\\myproject2\\plugins\\savesystem\\source\\completesavesystem\\public\\parentsavegameinstance.h",
+            "c:\\users\\ander\\onedrive\\documentos\\unreal projects\\myproject2\\plugins\\savesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\completesavesystem\\uht\\parentsavegameinstance.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

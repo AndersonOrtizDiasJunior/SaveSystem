@@ -1,0 +1,29 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.CompleteSaveSystem.cpp.obj": [
+			"Checkpoint.gen.cpp.obj",
+			"CompleteSaveSystem.init.gen.cpp.obj",
+			"ConfirmationModal.gen.cpp.obj",
+			"IDestroyable.gen.cpp.obj",
+			"ParentSaveGame.gen.cpp.obj",
+			"ParentSaveGameInstance.gen.cpp.obj",
+			"SaveSlotElement.gen.cpp.obj",
+			"SaveSlotItem.gen.cpp.obj",
+			"SaveSlotsList.gen.cpp.obj",
+			"SaveTextureData.gen.cpp.obj",
+			"TextureSavingFunctionLibrary.gen.cpp.obj",
+			"Checkpoint.cpp.obj",
+			"CompleteSaveSystem.cpp.obj",
+			"ConfirmationModal.cpp.obj",
+			"IDestroyable.cpp.obj",
+			"ParentSaveGame.cpp.obj",
+			"ParentSaveGameInstance.cpp.obj",
+			"SaveSlotElement.cpp.obj",
+			"SaveSlotItem.cpp.obj",
+			"SaveSlotsList.cpp.obj",
+			"SaveTextureData.cpp.obj",
+			"TextureSavingFunctionLibrary.cpp.obj"
+		]
+	}
+}

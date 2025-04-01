@@ -17,4 +17,7 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, Category = "Save System")
 	FName LevelName;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Detroyable System")
+	TArray<FName> ObjectsToDestroy;
 };

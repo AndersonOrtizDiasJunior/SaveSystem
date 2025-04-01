@@ -16,5 +16,16 @@ class COMPLETESAVESYSTEM_API UParentSaveGameInstance : public UGameInstance
 public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Save System")
 	int CachedSlot = -1;
-	
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Detroyable System")
+	TArray<FName> ObjectsToDestroy;
+
+	UFUNCTION(BlueprintCallable, Category = "Detroyable System")
+	bool IsOnDestroyList(FName name);
+
+	UFUNCTION(BlueprintCallable, Category = "Detroyable System")
+	void AddToDestroyList(FName name);
+
+	UFUNCTION(BlueprintCallable, Category = "Detroyable System")
+	bool RemoveFromDestroyList(FName name);
 };
