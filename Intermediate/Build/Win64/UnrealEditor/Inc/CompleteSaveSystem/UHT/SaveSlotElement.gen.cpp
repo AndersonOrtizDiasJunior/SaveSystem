@@ -10,9 +10,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeSaveSlotElement() {}
 
 // Begin Cross Module References
+COMMONUI_API UClass* Z_Construct_UClass_UCommonButtonBase_NoRegister();
 COMPLETESAVESYSTEM_API UClass* Z_Construct_UClass_USaveSlotElement();
 COMPLETESAVESYSTEM_API UClass* Z_Construct_UClass_USaveSlotElement_NoRegister();
-UMG_API UClass* Z_Construct_UClass_UButton_NoRegister();
 UMG_API UClass* Z_Construct_UClass_UImage_NoRegister();
 UMG_API UClass* Z_Construct_UClass_UTextBlock_NoRegister();
 UMG_API UClass* Z_Construct_UClass_UUserObjectListEntry_NoRegister();
@@ -122,6 +122,7 @@ struct Z_Construct_UClass_USaveSlotElement_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DeleteSlotButton_MetaData[] = {
 		{ "BindWidget", "" },
+		{ "Category", "SaveSlotElement" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/SaveSlotElement.h" },
 	};
@@ -165,8 +166,8 @@ const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_USaveSlotEleme
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_USaveSlotElement_Statics::NewProp_SubtitleLabel = { "SubtitleLabel", nullptr, (EPropertyFlags)0x0020080000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(USaveSlotElement, SubtitleLabel), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_SubtitleLabel_MetaData), NewProp_SubtitleLabel_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_USaveSlotElement_Statics::NewProp_TimeStampLabel = { "TimeStampLabel", nullptr, (EPropertyFlags)0x0020080000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(USaveSlotElement, TimeStampLabel), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_TimeStampLabel_MetaData), NewProp_TimeStampLabel_MetaData) };
 const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_USaveSlotElement_Statics::NewProp_Thumbnail = { "Thumbnail", nullptr, (EPropertyFlags)0x0020080000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(USaveSlotElement, Thumbnail), Z_Construct_UClass_UImage_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Thumbnail_MetaData), NewProp_Thumbnail_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_USaveSlotElement_Statics::NewProp_DeleteSlotButton = { "DeleteSlotButton", nullptr, (EPropertyFlags)0x0020080000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(USaveSlotElement, DeleteSlotButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DeleteSlotButton_MetaData), NewProp_DeleteSlotButton_MetaData) };
-const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_USaveSlotElement_Statics::NewProp_ActionButton = { "ActionButton", nullptr, (EPropertyFlags)0x0020080000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(USaveSlotElement, ActionButton), Z_Construct_UClass_UButton_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ActionButton_MetaData), NewProp_ActionButton_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_USaveSlotElement_Statics::NewProp_DeleteSlotButton = { "DeleteSlotButton", nullptr, (EPropertyFlags)0x002008000008000c, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(USaveSlotElement, DeleteSlotButton), Z_Construct_UClass_UCommonButtonBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_DeleteSlotButton_MetaData), NewProp_DeleteSlotButton_MetaData) };
+const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_USaveSlotElement_Statics::NewProp_ActionButton = { "ActionButton", nullptr, (EPropertyFlags)0x0020080000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(USaveSlotElement, ActionButton), Z_Construct_UClass_UCommonButtonBase_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_ActionButton_MetaData), NewProp_ActionButton_MetaData) };
 const UECodeGen_Private::FIntPropertyParams Z_Construct_UClass_USaveSlotElement_Statics::NewProp_Index = { "Index", nullptr, (EPropertyFlags)0x0020080000000004, UECodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(USaveSlotElement, Index), METADATA_PARAMS(UE_ARRAY_COUNT(NewProp_Index_MetaData), NewProp_Index_MetaData) };
 void Z_Construct_UClass_USaveSlotElement_Statics::NewProp_bIsLoad_SetBit(void* Obj)
 {
@@ -225,14 +226,14 @@ USaveSlotElement::~USaveSlotElement() {}
 // End Class USaveSlotElement
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_ander_OneDrive_Documentos_Unreal_Projects_MyProject2_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_andersondj_Documents_Unreal_Projects_pluginRefactor_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_USaveSlotElement, USaveSlotElement::StaticClass, TEXT("USaveSlotElement"), &Z_Registration_Info_UClass_USaveSlotElement, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USaveSlotElement), 1569332585U) },
+		{ Z_Construct_UClass_USaveSlotElement, USaveSlotElement::StaticClass, TEXT("USaveSlotElement"), &Z_Registration_Info_UClass_USaveSlotElement, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USaveSlotElement), 2501141995U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_ander_OneDrive_Documentos_Unreal_Projects_MyProject2_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_3467928664(TEXT("/Script/CompleteSaveSystem"),
-	Z_CompiledInDeferFile_FID_Users_ander_OneDrive_Documentos_Unreal_Projects_MyProject2_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_ander_OneDrive_Documentos_Unreal_Projects_MyProject2_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_andersondj_Documents_Unreal_Projects_pluginRefactor_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_2691640979(TEXT("/Script/CompleteSaveSystem"),
+	Z_CompiledInDeferFile_FID_Users_andersondj_Documents_Unreal_Projects_pluginRefactor_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_andersondj_Documents_Unreal_Projects_pluginRefactor_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration

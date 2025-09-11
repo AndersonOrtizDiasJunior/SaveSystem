@@ -2,6 +2,7 @@
 // Copyright 2024, Anderson Ortiz Dias Junior.
 
 using UnrealBuildTool;
+using UnrealBuildTool.Rules;
 
 public class CompleteSaveSystem : ModuleRules
 {
@@ -26,7 +27,7 @@ public class CompleteSaveSystem : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core", "UMG",
+				"Core", "UMG", "CommonUI", "CommonInput", "GameplayTags" 
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);
@@ -38,7 +39,9 @@ public class CompleteSaveSystem : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"Slate",
-				"SlateCore"
+				"SlateCore",
+                "CommonUI", 
+				"CommonInput",
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);
