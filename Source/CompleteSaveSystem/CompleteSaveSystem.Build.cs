@@ -27,7 +27,14 @@ public class CompleteSaveSystem : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core", "UMG", "CommonUI", "CommonInput", "GameplayTags" 
+				"Core", 
+				"UMG", 
+				"CommonUI", 
+				"CommonInput", 
+				"GameplayTags", 
+				"Renderer", 
+				"RHI",
+				"RenderCore",
 				// ... add other public dependencies that you statically link with here ...
 			}
 			);

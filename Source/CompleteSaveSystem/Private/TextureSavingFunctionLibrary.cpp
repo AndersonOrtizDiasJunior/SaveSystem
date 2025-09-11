@@ -81,3 +81,70 @@ UTexture2D* UTextureSavingFunctionLibrary::RenderTargetToTexture2D(UTextureRende
 
     return NewTexture;
 }
+
+void UTextureSavingFunctionLibrary::RenderTargetToTexture2D_Async(
+    UTextureRenderTarget2D* RenderTarget,
+    const FOnTextureCreated& OnCompleted)
+{
+    if (!RenderTarget)
+    {
+        OnCompleted.ExecuteIfBound(nullptr);
+        return;
+    }
+
+    const int32 Width = RenderTarget->SizeX;
+    const int32 Height = RenderTarget->SizeY;
+
+    // Capture the render target resource (on render thread)
+    FTextureRenderTargetResource* RTResource = RenderTarget->GameThread_GetRenderTargetResource();
+    if (!RTResource)
+    {
+        OnCompleted.ExecuteIfBound(nullptr);
+        return;
+    }
+
+    // Allocate buffer for pixel data
+    TArray<FColor> PixelData;
+    PixelData.SetNumUninitialized(Width * Height);
+
+    // Read pixels asynchronously
+    ENQUEUE_RENDER_COMMAND(ReadRenderTargetPixels)(
+        [RTResource, &PixelData, Width, Height, OnCompleted](FRHICommandListImmediate& RHICmdList)
+        {
+            // Read pixels from render target (render thread)
+            RTResource->ReadPixels(PixelData);
+
+            // Go back to game thread to create the texture
+            AsyncTask(ENamedThreads::GameThread, [PixelData = MoveTemp(PixelData), Width, Height, OnCompleted]()
+                {
+                    // Create transient texture
+                    UTexture2D* NewTexture = UTexture2D::CreateTransient(Width, Height, PF_B8G8R8A8);
+                    if (!NewTexture)
+                    {
+                        UE_LOG(LogTemp, Error, TEXT("[Error:] Failed to create transient texture."));
+                        OnCompleted.ExecuteIfBound(nullptr);
+                        return;
+                    }
+
+#if WITH_EDITORONLY_DATA
+                    NewTexture->MipGenSettings = TMGS_NoMipmaps;
+#endif
+                    NewTexture->NeverStream = true;
+                    NewTexture->SRGB = 0;
+                    NewTexture->LODGroup = TextureGroup::TEXTUREGROUP_Pixels2D;
+
+                    // Lock mip and copy pixel data
+                    FTexture2DMipMap& Mip = NewTexture->GetPlatformData()->Mips[0];
+                    void* TextureData = Mip.BulkData.Lock(LOCK_READ_WRITE);
+                    FMemory::Memcpy(TextureData, PixelData.GetData(), PixelData.Num() * sizeof(FColor));
+                    Mip.BulkData.Unlock();
+
+                    // Update the texture resource
+                    NewTexture->UpdateResource();
+
+                    // Call the completion delegate
+                    OnCompleted.ExecuteIfBound(NewTexture);
+                });
+        }
+        );
+}

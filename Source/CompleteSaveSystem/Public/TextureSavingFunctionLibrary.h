@@ -9,6 +9,8 @@
 /**
  * 
  */
+DECLARE_DYNAMIC_DELEGATE_OneParam(FOnTextureCreated, UTexture2D*, NewTexture);
+
 UCLASS()
 class COMPLETESAVESYSTEM_API UTextureSavingFunctionLibrary : public UBlueprintFunctionLibrary
 {
@@ -23,4 +25,7 @@ private:
 
 	UFUNCTION(BlueprintCallable, meta = (AllowPrivateAccess = "true"), Category="Texture Saving")
 	static UTexture2D* RenderTargetToTexture2D(UTextureRenderTarget2D* RenderTarget);
+
+	UFUNCTION(BlueprintCallable, Category = "Texture Saving")
+	static void RenderTargetToTexture2D_Async(UTextureRenderTarget2D* RenderTarget, const FOnTextureCreated& OnCompleted);
 };

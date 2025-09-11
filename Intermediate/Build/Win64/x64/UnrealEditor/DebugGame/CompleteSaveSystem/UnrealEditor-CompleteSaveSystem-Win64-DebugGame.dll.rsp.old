@@ -35,7 +35,6 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
-/NATVIS:"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\RenderCore\RenderCore.natvis"
 "C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Intermediate\Build\Win64\x64\pluginRefactorEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
 "C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\Module.CompleteSaveSystem.cpp.obj"
 "C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\Checkpoint.cpp.obj"
@@ -60,8 +59,6 @@
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\UMG\UnrealEditor-UMG.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayTags\UnrealEditor-GameplayTags.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Renderer\UnrealEditor-Renderer.lib"
-"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\RHI\UnrealEditor-RHI.lib"
-"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\RenderCore\UnrealEditor-RenderCore.lib"
 "delayimp.lib"
 "wininet.lib"
 "rpcrt4.lib"
