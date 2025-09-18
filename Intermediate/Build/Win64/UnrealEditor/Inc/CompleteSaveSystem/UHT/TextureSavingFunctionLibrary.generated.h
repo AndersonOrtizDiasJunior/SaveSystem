@@ -9,18 +9,13 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UTexture2D;
-class UTextureRenderTarget2D;
-struct FSaveTextureData;
 #ifdef COMPLETESAVESYSTEM_TextureSavingFunctionLibrary_generated_h
 #error "TextureSavingFunctionLibrary.generated.h already included, missing '#pragma once' in TextureSavingFunctionLibrary.h"
 #endif
 #define COMPLETESAVESYSTEM_TextureSavingFunctionLibrary_generated_h
 
 #define FID_Users_andersondj_Documents_Unreal_Projects_pluginRefactor_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_TextureSavingFunctionLibrary_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	DECLARE_FUNCTION(execRenderTargetToTexture2D); \
-	DECLARE_FUNCTION(execCreateTextureFromSaveData); \
-	DECLARE_FUNCTION(execGetTextureSaveData);
+	DECLARE_FUNCTION(execDeleteFile);
 
 
 #define FID_Users_andersondj_Documents_Unreal_Projects_pluginRefactor_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_TextureSavingFunctionLibrary_h_15_INCLASS_NO_PURE_DECLS \

@@ -1,0 +1,25 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\andersondj\\documents\\unreal projects\\pluginrefactor\\plugins\\savesystem\\source\\completesavesystem\\private\\texturesavingfunctionlibrary.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\andersondj\\documents\\unreal projects\\pluginrefactor\\intermediate\\build\\win64\\x64\\pluginrefactor\\development\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\andersondj\\documents\\unreal projects\\pluginrefactor\\plugins\\savesystem\\intermediate\\build\\win64\\x64\\unrealgame\\development\\completesavesystem\\definitions.completesavesystem.h",
+            "c:\\users\\andersondj\\documents\\unreal projects\\pluginrefactor\\plugins\\savesystem\\source\\completesavesystem\\public\\texturesavingfunctionlibrary.h",
+            "c:\\users\\andersondj\\documents\\unreal projects\\pluginrefactor\\plugins\\savesystem\\intermediate\\build\\win64\\unrealgame\\inc\\completesavesystem\\uht\\texturesavingfunctionlibrary.generated.h",
+            "c:\\users\\andersondj\\documents\\unreal projects\\pluginrefactor\\plugins\\savesystem\\source\\completesavesystem\\public\\savetexturedata.h",
+            "c:\\users\\andersondj\\documents\\unreal projects\\pluginrefactor\\plugins\\savesystem\\intermediate\\build\\win64\\unrealgame\\inc\\completesavesystem\\uht\\savetexturedata.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\texturerendertarget2d.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\engine\\texturerendertarget.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\texturerendertarget.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\texturerendertarget2d.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\imagewritequeue\\public\\imagewriteblueprintlibrary.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\imagewritequeue\\public\\imagewritetypes.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\imagewritequeue\\uht\\imagewritetypes.generated.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\imagewritequeue\\uht\\imagewriteblueprintlibrary.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

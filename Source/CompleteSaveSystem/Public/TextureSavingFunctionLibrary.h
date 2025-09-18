@@ -15,12 +15,6 @@ class COMPLETESAVESYSTEM_API UTextureSavingFunctionLibrary : public UBlueprintFu
 	GENERATED_BODY()
 	
 private:
-	UFUNCTION(BlueprintCallable, meta = (AllowPrivateAccess = "true"), Category="Texture Saving")
-	static struct FSaveTextureData GetTextureSaveData(UTexture2D* Texture);
-
-	UFUNCTION(BlueprintCallable, meta = (AllowPrivateAccess = "true"), Category="Texture Saving")
-	static UTexture2D* CreateTextureFromSaveData(struct FSaveTextureData TextureData);
-
-	UFUNCTION(BlueprintCallable, meta = (AllowPrivateAccess = "true"), Category="Texture Saving")
-	static UTexture2D* RenderTargetToTexture2D(UTextureRenderTarget2D* RenderTarget);
+	UFUNCTION(BlueprintCallable, meta = (AllowPrivateAccess = "true"), Category="File Deleting")
+	static bool DeleteFile(const FString& FullPath);
 };

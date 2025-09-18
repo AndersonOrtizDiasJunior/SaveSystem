@@ -42,6 +42,8 @@ public class CompleteSaveSystem : ModuleRules
 				"SlateCore",
                 "CommonUI", 
 				"CommonInput",
+                "ImageWriteQueue",
+				"RenderCore"
 				// ... add private dependencies that you statically link with here ...	
 			}
 			);

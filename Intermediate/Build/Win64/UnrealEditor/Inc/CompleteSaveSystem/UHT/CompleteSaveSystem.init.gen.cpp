@@ -7,6 +7,8 @@
 #include "UObject/GeneratedCppIncludes.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCompleteSaveSystem_init() {}
+	COMPLETESAVESYSTEM_API UFunction* Z_Construct_UDelegateFunction_CompleteSaveSystem_ExportingFailure__DelegateSignature();
+	COMPLETESAVESYSTEM_API UFunction* Z_Construct_UDelegateFunction_CompleteSaveSystem_ExportingSuccess__DelegateSignature();
 	COMPLETESAVESYSTEM_API UFunction* Z_Construct_UDelegateFunction_CompleteSaveSystem_InputActionExecutedDelegate__DelegateSignature();
 	COMPLETESAVESYSTEM_API UFunction* Z_Construct_UDelegateFunction_UConfirmationModal_ActionDelegate__DelegateSignature();
 	static FPackageRegistrationInfo Z_Registration_Info_UPackage__Script_CompleteSaveSystem;
@@ -15,6 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeCompleteSaveSystem_init() {}
 		if (!Z_Registration_Info_UPackage__Script_CompleteSaveSystem.OuterSingleton)
 		{
 			static UObject* (*const SingletonFuncArray[])() = {
+				(UObject* (*)())Z_Construct_UDelegateFunction_CompleteSaveSystem_ExportingFailure__DelegateSignature,
+				(UObject* (*)())Z_Construct_UDelegateFunction_CompleteSaveSystem_ExportingSuccess__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_CompleteSaveSystem_InputActionExecutedDelegate__DelegateSignature,
 				(UObject* (*)())Z_Construct_UDelegateFunction_UConfirmationModal_ActionDelegate__DelegateSignature,
 			};
@@ -23,13 +27,13 @@ void EmptyLinkFunctionForGeneratedCodeCompleteSaveSystem_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x2A925409,
-				0xF9CCCC5C,
+				0xEEBA7820,
+				0xCD18EAF5,
 				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_CompleteSaveSystem.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_CompleteSaveSystem.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CompleteSaveSystem(Z_Construct_UPackage__Script_CompleteSaveSystem, TEXT("/Script/CompleteSaveSystem"), Z_Registration_Info_UPackage__Script_CompleteSaveSystem, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x2A925409, 0xF9CCCC5C));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_CompleteSaveSystem(Z_Construct_UPackage__Script_CompleteSaveSystem, TEXT("/Script/CompleteSaveSystem"), Z_Registration_Info_UPackage__Script_CompleteSaveSystem, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xEEBA7820, 0xCD18EAF5));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
