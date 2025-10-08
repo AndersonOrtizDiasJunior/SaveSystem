@@ -8,6 +8,7 @@
 #include "TextureResource.h"
 #include "Engine/TextureRenderTarget2D.h"
 #include "RenderingThread.h"
+#include "Misc/Paths.h"
 
 UExportingTextureAsync* UExportingTextureAsync::ExportTextureAsync(UObject* WorldContextObject, UTexture* Texture, FString Name) 
 {

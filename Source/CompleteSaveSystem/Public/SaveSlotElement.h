@@ -40,7 +40,7 @@ protected:
 	UPROPERTY(meta=(BindWidget))
 	class UImage* Thumbnail;
 
-	UPROPERTY(BlueprintReadWrite, meta=(BindWidget))
+	UPROPERTY(BlueprintReadWrite, meta=(BindWidget), Category = "Parameters")
 	class UCommonButtonBase* DeleteSlotButton;
 
 	UPROPERTY(meta=(BindWidget))

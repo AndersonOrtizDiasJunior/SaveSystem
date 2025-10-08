@@ -122,7 +122,7 @@ struct Z_Construct_UClass_USaveSlotElement_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_DeleteSlotButton_MetaData[] = {
 		{ "BindWidget", "" },
-		{ "Category", "SaveSlotElement" },
+		{ "Category", "Parameters" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/SaveSlotElement.h" },
 	};
@@ -229,10 +229,10 @@ USaveSlotElement::~USaveSlotElement() {}
 struct Z_CompiledInDeferFile_FID_Users_andersondj_Documents_Unreal_Projects_pluginRefactor_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_USaveSlotElement, USaveSlotElement::StaticClass, TEXT("USaveSlotElement"), &Z_Registration_Info_UClass_USaveSlotElement, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USaveSlotElement), 2501141995U) },
+		{ Z_Construct_UClass_USaveSlotElement, USaveSlotElement::StaticClass, TEXT("USaveSlotElement"), &Z_Registration_Info_UClass_USaveSlotElement, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(USaveSlotElement), 3912424790U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_andersondj_Documents_Unreal_Projects_pluginRefactor_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_2691640979(TEXT("/Script/CompleteSaveSystem"),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_andersondj_Documents_Unreal_Projects_pluginRefactor_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_605888976(TEXT("/Script/CompleteSaveSystem"),
 	Z_CompiledInDeferFile_FID_Users_andersondj_Documents_Unreal_Projects_pluginRefactor_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_andersondj_Documents_Unreal_Projects_pluginRefactor_Plugins_SaveSystem_Source_CompleteSaveSystem_Public_SaveSlotElement_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
