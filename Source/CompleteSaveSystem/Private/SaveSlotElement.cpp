@@ -3,10 +3,11 @@
 
 #include "SaveSlotElement.h"
 
-#include "SaveSlotItem.h"
 #include "Components/Button.h"
 #include "Components/Image.h"
 #include "Components/TextBlock.h"
+#include "SaveSlotItem.h"
+#include "CommonButtonBase.h"
 
 void USaveSlotElement::NativeOnListItemObjectSet(UObject* ListItemObject)
 {
@@ -23,9 +24,8 @@ void USaveSlotElement::NativeOnListItemObjectSet(UObject* ListItemObject)
 
 		DeleteAction = SlotItem->DeleteAction;
 		MainAction = SlotItem->MainAction;
-		
-		ActionButton->OnClicked.AddDynamic(this,&USaveSlotElement::USaveSlotElement::CallMainAction);
-		DeleteSlotButton->OnClicked.AddDynamic(this,&USaveSlotElement::USaveSlotElement::CallOnDelete);
+		ActionButton->OnClicked().AddUObject(this, &USaveSlotElement::CallMainAction);
+		DeleteSlotButton->OnClicked().AddUObject(this, &USaveSlotElement::CallOnDelete);
 	}
 }
 

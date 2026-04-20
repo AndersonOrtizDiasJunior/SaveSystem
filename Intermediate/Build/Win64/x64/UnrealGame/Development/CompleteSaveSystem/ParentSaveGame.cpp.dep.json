@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\andersondj\\documents\\unreal projects\\pluginrefactor\\plugins\\savesystem\\source\\completesavesystem\\private\\parentsavegame.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\andersondj\\documents\\unreal projects\\pluginrefactor\\intermediate\\build\\win64\\x64\\pluginrefactor\\development\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\andersondj\\documents\\unreal projects\\pluginrefactor\\plugins\\savesystem\\intermediate\\build\\win64\\x64\\unrealgame\\development\\completesavesystem\\definitions.completesavesystem.h",
+            "c:\\users\\andersondj\\documents\\unreal projects\\pluginrefactor\\plugins\\savesystem\\source\\completesavesystem\\public\\parentsavegame.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\source\\runtime\\engine\\classes\\gameframework\\savegame.h",
+            "c:\\program files\\epic games\\ue_5.4\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\engine\\uht\\savegame.generated.h",
+            "c:\\users\\andersondj\\documents\\unreal projects\\pluginrefactor\\plugins\\savesystem\\intermediate\\build\\win64\\unrealgame\\inc\\completesavesystem\\uht\\parentsavegame.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,24 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CompleteSaveSystem-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Intermediate\Build\Win64\x64\pluginRefactorEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\Module.CompleteSaveSystem.cpp.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\Checkpoint.cpp.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\CompleteSaveSystem.cpp.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\ConfirmationModal.cpp.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\ExportingTextureAsync.cpp.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\ExtendedCommonActivatableWidget.cpp.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\ParentSaveGame.cpp.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\ParentSaveGameInstance.cpp.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\SaveSlotElement.cpp.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\SaveSlotItem.cpp.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\SaveSlotsList.cpp.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\SaveTextureData.cpp.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\TextureSavingFunctionLibrary.cpp.obj"
+"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\Default.rc2.res"
+/OUT:"C:\Users\andersondj\Documents\Unreal Projects\pluginRefactor\Plugins\SaveSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CompleteSaveSystem\UnrealEditor-CompleteSaveSystem-Win64-DebugGame.lib"
